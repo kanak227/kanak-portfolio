@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import LoadingScreen from './components/LoadingScreen'
 import './index.css'
 import Navbar from './components/Navbar'
+import MobileMenu from './components/MobileMenu'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <div className='{min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100 } '>
       
     <Navbar menuOpen ={menuOpen} setmenuOpen = {setmenuOpen}/>
-
+    <MobileMenu menuOpen ={menuOpen} setmenuOpen = {setmenuOpen}/>
 
     </div>
     </>
