@@ -5,6 +5,7 @@ import LoadingScreen from './components/LoadingScreen'
 import './index.css'
 import Navbar from './components/Navbar'
 import MobileMenu from './components/MobileMenu'
+import Home from './components/sections/Home'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       
     <Navbar menuOpen ={menuOpen} setmenuOpen = {setmenuOpen}/>
     <MobileMenu menuOpen ={menuOpen} setmenuOpen = {setmenuOpen}/>
+    <Home/>
 
     </div>
     </>
